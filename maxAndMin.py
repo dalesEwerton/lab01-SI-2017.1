@@ -10,3 +10,14 @@ def maximo(numeros):
 
 	return max
 
+
+def minimo(numeros):
+
+	min = numeros[0]
+
+	for i in range(len(numeros) -1):
+		if(min > numeros[i+1]):
+			min = numeros[i+1]
+
+	return min
+
